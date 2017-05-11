@@ -5,8 +5,8 @@
 <head>
   <meta charset="utf-8">
   <title>Gllacy Shop</title>
-  <link href="css/style.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -18,13 +18,13 @@
       <nav class="main-navigation">
         <ul class="main-menu">
           <li>
-            <a href="#" class="active">Каталог</a>
+            <a href="#" class="menu-active">Каталог</a>
             <ul class="dropdown">
               <li>
                 <a href="#"><b>Новинки</b></a><hr>
               </li>
-              <li>
-                <a class="disabled">Сливочное</a>
+              <li class="disabled">
+                <a>Сливочное</a>
               </li>
               <li>
                 <a href="#" class="catalog-activ">Щербеты</a>
@@ -71,21 +71,21 @@
         <div class="basket-list user-menu">
           <a class="basket basket-2" href="#">2 товара</a>
           <table class="basket-info">
-            <tr class="basket-item">
+            <tr class="basket-item basket-item-1">
               <td>Пломбир с апельсиновым джемом</td>
-              <td><b>1,5 кг х</b>200 руб.</td>
+              <td>1,5 кг х <span class="basket-item-opasity">200 руб.</span></td>
               <td>300 руб.</td>
             </tr>
-            <tr class="basket-item">
+            <tr class="basket-item basket-item-2">
               <td>Клубничный пломбир с присыпкой из белого шоколада</td>
-              <td><b>1,5 кг х</b>300 руб.</td>
+              <td>1,5 кг х <span class="basket-item-opasity">300 руб.</span></td>
               <td>450 руб.</td>
-            </tr>
+            </tr><hr>
             <tr>
               <td class="total" colspan=3>Итого: 750 руб.</td>
             </tr>
             <tr>
-              <td><a href="#" class="btn basket-btn">Оформить заказ</a></td>
+              <td colspan=3><a href="#" class="btn basket-btn">Оформить заказ</a></td>
             </tr>
           </table>
         </div>
